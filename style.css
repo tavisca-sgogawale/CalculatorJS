@@ -1,0 +1,39 @@
+ .maincontent{
+    display: flex;
+}
+.container{
+    border : 2px solid black;
+    flex-wrap:wrap;
+    margin: 1%;
+    width: 10%;
+ 
+}
+
+.display{
+    padding: 4%;
+    
+    background-color: lightblue;
+   
+}
+.display input{
+    background-color: rgb(228, 245, 250);
+    border : 1px solid rgb(76, 88, 92);
+    text-align: right;
+    width: 95%;
+    height: 30px;
+    font-family: serif;
+    font-size: 100%;
+}
+.numberpad{
+    padding: 2%;
+    flex-wrap:  wrap;
+    background-color: lightblue;
+    border : 1px solid lightblue;
+}
+.numberpad button{
+   margin: 2px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(228, 245, 250);
+    border : 1px solid rgb(228, 245, 250);  
+}
